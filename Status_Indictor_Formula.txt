@@ -1,0 +1,3 @@
+IF( ISPICKVAL( Status__c , 'Approved') , IMAGE("/resource/StatusImages/thumbs-up.png", "Accepted", 20, 20), 
+IF ( ISPICKVAL( Status__c , 'Rejected'), IMAGE("/resource/StatusImages/thumbs-down.png", "Rejected", 20, 20), 
+IMAGE("/resource/StatusImages/draft.png", "In-Process", 20, 20)))
